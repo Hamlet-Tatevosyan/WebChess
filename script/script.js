@@ -494,14 +494,12 @@ function CheckMat(row, col)
     }
 
     if (!t) {
-        $('.mat').append("Mat Chka")
+        $('.mat').append("NO MAT")
     }
     else if (!error){
-        $('.mat').append("Animast Qayl")
+        $('.mat').append("POINTLESS STEP")
     }
     else {
-        $('.mat').append("Mat")
+        $('.mat').append("MAT")
     }
 }
-
-console.log(chess);
